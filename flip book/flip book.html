@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>program</title>
+        <link rel="stylesheet" href="style3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    </head>
+    <body>
+       
+        
+    
+    
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="image2/Edukick logo-02.png"></a>
+                <h1>Edukick Academy</h1>
+                <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about us.html">ABOUT US</a></li>
+                        <li><a href="program.html">PROGRAM</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact us.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+         
+        <section class="flipping">
+    
+        <div class="book">
+            <input type="checkbox" id="c1">
+            <input type="checkbox" id="c2">
+            <input type="checkbox" id="c3">
+            <div id="cover"><img src="image2/EDUKICKSTORY.jpg"></div>
+            <div class="flip-book">
+                <div class="flip" id="p1">
+                    <div class="back">
+                        <img src="image2/slum.jpg">
+                        <label class="back-btn" for="c1">Back</label>
+                    </div>
+                    <div class="front">
+                        <h2>OUr story</h2>
+                        <p>EduKick Football Academy welcomes footballers 12-26 years of age. EduKick  is the ORIGINAL
+                            "SOCCER SCHOOL” and remains still today the BEST, the first privately owned Football & Education Academy in India (since 2000).<br> 
+
+                            EduKick Academy, success in developing thousands of international footballers is the result of years of experience mentoring, 
+                            training, and developing their student players with the equal emphasis always placed on their education while under our care in international at the academy. 
+                            EduKick Academy consistently offers personalized service and care for each of its participating student-footballers. They are committed to creating a nurturing, 
+                            caring academy environment that is conducive to progressing the education, football development, personal self-growth, and inter-cultural competence of the academy players. 
+                            EduKick philosophy is in its name…”Edu(cation) Kick(a football).”<br>           
+                            
+                            
+                            EduKick’s President & Founder, Joey Bilotta, now has over 37 years of professional experience working with young footballers in education, counseling, mentorship,
+                            soccer coaching, and soccer-related courses.<br>
+                             His mission, since EduKick’s inception in 2001, is to use his extensive life experience in football, his educational
+                            and motivational skills to mentor and assist aspiring EduKick Academy soccer players and their parents in establishing and systematically working towards reaching
+                            their personal soccer, education, wellness, and LIFE goals!<br> Mr. Bilotta’s SOCCER LIFE COACH services are free of charge for each of the participating EduKick Academy footballers. Learn more about this unique and
+                            highly effective ONLINE CONSULTANCY & MENTORSHIP program for EduKick footballers (and their parents) at Soccer Life Coach… </p>
+                        <label class="next-btn" for="c1">Next</label>
+                        
+                    </div>
+                </div>
+                <div class="flip" id="p2">
+                    <div class="back">
+                        <img src="image2/sports.jpg">
+                        <label class="back-btn" for="c2">Back</label>
+                    </div>
+                    <div class="front">
+                        <h2>broucher</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam modi aliquid culpa </p>
+                        <label class="next-btn" for="c2">Next</label>
+                        
+                    </div>
+            </div>
+            <div class="flip" id="p3">
+                <div class="back">
+                    <img src="image2/slum.jpg">
+                    <label class="back-btn" for="c3">Back</label>
+                </div>
+                <div class="front">
+                    <h2>broucher</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam modi aliquid culpa </p>
+                    <label class="next-btn" for="c3">Next</label>
+                    
+                </div>
+
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses <br> From The World </h1>
+        <a href="contact us.html" class="hero-btn">Contact us</a>
+    
+    </section>
+    
+    
+    
+            
+       
+    
+    
+    <!-------footer------>
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Example sentencesRelated definitionsCOBUILD Collocations
+            Example sentences</p>
+           
+             <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              
+    
+            
+           </div>
+            <p>Made with  <i class="fa fa-heart-o"></i> by EDUKICK FOOTBALL ACADEMY</p>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          <!-------javascript for togglemenu--------- --->
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                function showMenu(){
+                    navLinks.style.right ="0";
+                }
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+            </script>
+    </body>
+
+</html>
